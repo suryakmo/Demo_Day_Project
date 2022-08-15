@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: 
+    #1f3a37;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+li, a, button {
+    font-weight: 500;
+    font-size: 15px;
+    color: #066344;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d5e8e2;
+    margin-bottom: 4%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #1cb60e;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(100, 169, 148, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(100, 169, 148, 0.8);
+}
+
+
+#numInput {
+    width: 90%;
+    height: 100px;
+    margin: 2.5%;
+    padding: 20px;
+    border: solid;
+    display: flex;
+}
+
+#input {
+    margin-left: 25%;
+    width:100px;
+    height:100px;
+}
+
+#numContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+img {
+    width: 10%
+}
+
+#subButton {
+    position: relative;
+    width: 100px;
+    right: 20px;
+    top: 5px;
+
+}
+
+#numField {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    bottom: 2px;
+}
+
+.formName {
+    color: #e5eeeb;
+}
+
+/* @media(max-width: 960){
+    li, a {
+        font-size: 14px;
+    }
+} */
