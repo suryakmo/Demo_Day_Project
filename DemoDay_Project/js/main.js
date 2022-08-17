@@ -2,16 +2,19 @@ let recycleInput;
 
 function getNum() {
     let numField = document.getElementById('numField').value;
-    // let result = document.getElementById('result');
-    
-    //     result.textContent = 'Your number is: ' + numField;
+
+    let a = document.createElement("a");
+    let link = document.createTextNode("Click to learn about the type");
+    a.appendChild(link);
+    a.title = "Click to learn about the type";
         if(numField == 1 || numField == 2){
-            recycleInput == true;
+            a.href = "recyclable.html";
         }
         else{
-            recycleInput == false;
+            a.href = "nonrecyclable.html";
         }
     }
+    document.body.appendChild(a);
 
     let subButton = document.getElementById('subButton');
     subButton.addEventListener('click', getNum, false); 
