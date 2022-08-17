@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -163,6 +164,8 @@ img {
 
 }
 
+
+
 #numField {
     position: relative;
     width: 40px;
@@ -215,6 +218,7 @@ h5 {
     display: flex;
     justify-content: center;
     color: #e5eeeb;
+    padding-bottom: 7%;
 }
 
 #quiz {
@@ -232,18 +236,55 @@ h5 {
 }
 
 .title {
-    background-color: #bccac6;
+    background-color: #d5e8e2;
     color: #1f3a37;
     padding-top: 1%;
     padding-bottom: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 10px;
 }
 
+footer {
+    background-color: #d5e8e2;
+}
 
-/* @media(max-width: 960){
-    li, a {
-        font-size: 14px;
-    }
+/* @media(max-width: 960px){
+
 } */
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+    padding: 10px 10%;
+    background-color: #d5e8e2;
+    margin-bottom: 0%;
+}
+
+.logo2 {
+    width: 30%;
+    cursor: pointer;
+    justify-self: flex-start;
+}
+
+.linkedin {
+    list-style: none;
+    display: flex;
+}
+
+.linkedin li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.linkedin li a {
+    transition: all 0.3s ease 0s;
+}
+
+.linkedin li a:hover {
+    color: #1cb60e;
+}

@@ -1,63 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 :root {
-    --primary: #849e89;
+    --primary: #d5e8e2;
     --secondary: ;
-    --accent: #657e6b;
-}
-
-
-li, a, button {
-    font-weight: 500;
-    font-size: 16px;
-    color: #066344;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #d5e8e2;
-    margin-bottom: 4%;
+    --accent: #1f3a37;
 }
 
 .logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-    color: #1cb60e;
-}
-
-button {
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgba(100, 169, 148, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(100, 169, 148, 0.8);
+    width: 50%;
+    margin-left: 25%;
 }
 
 body {
@@ -98,15 +49,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: rgb(31, 28, 28);
 }
 
 #all-messages {
    
     width: 90%;
     height: 70%;
-    background-color: #fff;
-    color: rgb(31, 28, 28);
+    background-color: #1f3a37;
+    color: #d5e8e2;
 
     
     border-radius: 10px;
@@ -122,7 +73,7 @@ body {
     width: 90%;
     height: 10%;
     background-color: var(--accent);
-    color: rgb(223, 13, 13);
+    color: rgb(255, 255, 255);
    
     border-radius: 10px;
     margin: 1%;
@@ -161,7 +112,7 @@ form label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: #d5e8e2;
 }
 
 #send-btn {
@@ -171,8 +122,8 @@ form label {
     background-color: var(--secondary);
     border: none;
     border-radius: 10px;
-    background-color: #314736;
-    color: #fff;
+    background-color: rgba(100, 169, 148, 1);
+    color: #066344;
 
     font-family:  'Montserrat', sans-serif;
     font-size: 1.2em;
