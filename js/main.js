@@ -1,5 +1,5 @@
 let recycleInput;
-let getLink = document.getElementById("linktg")
+let getLink = document.getElement
 
 function getNum() {
     let numField = document.getElementById('numField').value;
