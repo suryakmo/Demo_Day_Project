@@ -31,16 +31,16 @@ body {
 }
 
 #num {
-    width: 10%;
+    width: 20%;
     padding-left: 40%;
     padding-right: 40%;
     padding-top: 5%;
 }
 
 #nums {
-    width: 50%;
-    padding-left: 25%;
-    padding-right: 25%;
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
     padding-top: 5%;
 }
 
@@ -75,7 +75,7 @@ body {
 
 li, a, button {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     color: #066344;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -92,12 +92,12 @@ header {
 
 #canvas {
     margin-bottom: 3%;
-
 }
+
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
+    justify-self: flex-start;
 }
 
 .nav_links {
@@ -118,14 +118,13 @@ header {
 }
 
 button {
-    /* margin-left: 20px; */
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(100, 169, 148, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: 16px;
 }
 
 button:hover {
@@ -211,6 +210,38 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+#linktg {
+    display: flex;
+    justify-content: center;
+    color: #e5eeeb;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit {
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    top: 5%;
+    background-color: #bccac6;
+}
+
+.title {
+    background-color: #bccac6;
+    color: #1f3a37;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 /* @media(max-width: 960){
     li, a {
         font-size: 14px;

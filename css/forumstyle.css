@@ -6,6 +6,60 @@
     --accent: #657e6b;
 }
 
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #066344;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d5e8e2;
+    margin-bottom: 4%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #1cb60e;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(100, 169, 148, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(100, 169, 148, 0.8);
+}
+
 body {
     
     height: 100vh;
@@ -144,3 +198,5 @@ form label {
 .single-message-username {
     font-weight: 600;
 }
+
+

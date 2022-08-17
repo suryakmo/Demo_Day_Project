@@ -26,37 +26,41 @@
         <a class="cta" href="#"><button>Contact</button></a>
     </header>
 
-    <h1>Recycling Quiz<h1>
-    <div id="questions">
+    <h1 class="title">Recycling Quiz<h1>
+    <div id="quiz">
+        <div class="q">
+            <h5>All plastic can be recycled</h5>
+            <div class="answer">
+                <button id="t1">True</button>
+                <button id="f1">False</button>
+                </div>
+        </div>
+        <div class="q">
+            <h5>Water bottle caps are not recyclable</h5>
+            <div class="answer">
+                <button id="t2">True</button>
+                <button id="f2">False</button>
+                </div>
+        </div>
         <div class="q">
             <h5>Numbers 1, 2, and 3 are recyclable plastics</h5>
             <div class="answer">
-            <button>True</button>
-            <button>False</button>
+                <button id="t3">True</button>
+                <button id="f3">False</button>
                 </div>
         </div>
         <div class="q">
-            <h5>Question 2</h5>
+            <h5>Plastic water bottles are a leading cause of pollution</h5>
             <div class="answer">
-                <button>True</button>
-                <button>False</button>
+                <button id="t4">True</button>
+                <button id="f4">False</button>
                 </div>
         </div>
-        <div class="q">
-            <h5>Question 3</h5>
-            <div class="answer">
-                <button>True</button>
-                <button>False</button>
-                </div>
-        </div>
-        <div class="q">
-            <h5>Question 4</h5>
-            <div class="answer">
-                <button>True</button>
-                <button>False</button>
-                </div>
-        </div>
+
+        <button id="submit">Submit</button>
+        <h5 id="score"></h5>
     </div>
+    <script src="js/quiz.js"></script>
 
 </body>
 
