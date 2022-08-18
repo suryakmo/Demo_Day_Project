@@ -250,16 +250,11 @@ footer {
     background-color: #d5e8e2;
 }
 
-/* @media(max-width: 960px){
-
-} */
-
-
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 10%;
     padding: 10px 10%;
     background-color: #d5e8e2;
     margin-bottom: 0%;
@@ -288,3 +283,7 @@ footer {
 .linkedin li a:hover {
     color: #1cb60e;
 }
+
+/* @media(max-width: 960px){
+
+} */
