@@ -12,7 +12,6 @@ body {
 
 .imag9{
     text-align: center;
-    
 }
 
 .pg {
@@ -89,6 +88,7 @@ header {
     padding: 30px 10%;
     background-color: #d5e8e2;
     margin-bottom: 4%;
+    z-index: 2;
 }
 
 #canvas {
@@ -284,6 +284,53 @@ footer {
     color: #1cb60e;
 }
 
-/* @media(max-width: 960px){
+@media(min-width: 960px){
+    .imag9 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
 
-} */
+@media(max-width: 420px){
+    h1 {
+        font-size: 30px;
+        justify-content: center;
+    }
+    #numLabel {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+}
+
+.title {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+span {
+    font-family: 'Yeseva One', cursive;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 10px;
+    animation: waveAnim 4s 10s;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waveAnim {
+    0%,40%,100% {
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-30px);
+    }
+}

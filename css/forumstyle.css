@@ -151,3 +151,8 @@ form label {
 }
 
 
+@media(max-width: 420px){
+    #send-btn {
+        font-size: 15px;
+    }
+}
